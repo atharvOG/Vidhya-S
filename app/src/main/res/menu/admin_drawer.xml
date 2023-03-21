@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_students"
+        android:title="Add Student" />
+
+    <item
+        android:id="@+id/addTeachers"
+        android:title="Add Teachers"
+        android:icon="@drawable/add_teachers"/>
+
+    <item
+        android:id="@+id/add_batch"
+        android:title="Add Batch" />
+
+    <item
+        android:id="@+id/nav_total_Teachers"
+        android:title="Total Teachers" />
+
+    <item
+        android:id="@+id/send_Notification"
+        android:title="Send Notification" />
+
+    <item
+        android:id="@+id/search_student"
+        android:title="Search Student" />
+
+    <item
+        android:id="@+id/total_batches"
+        android:title="Batches" />
+
+    <item
+        android:id="@+id/board_Appriciation"
+        android:title="Board of Appriciation">
+
+    </item>
+
+    <item
+        android:id="@+id/admin_LogOut"
+        android:title="Log Out" />
+</menu>

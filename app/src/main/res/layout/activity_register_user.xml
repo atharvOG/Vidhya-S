@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUser"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/front_page"
+        android:layout_marginBottom="10dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register User"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/good_fonts"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"
+        android:textSize="30dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/good_fonts"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp">
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filledTextFieldRegisterEmail"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/good_fonts"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:paddingBottom="15dp"
+        android:hint="stu@gmail.com">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editRegisterEmail"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/default_btn_bg"
+            android:inputType="textEmailAddress"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Create Password"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/good_fonts"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp">
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filledTextFieldCreatePassword"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/good_fonts"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:paddingBottom="15dp"
+        android:hint="pass@132"
+        app:passwordToggleEnabled="true">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/CreatePassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/default_btn_bg"
+            android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Confirm Password"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/good_fonts"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="20dp">
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/filledTextFieldConfirmPassword"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/good_fonts"
+        android:paddingBottom="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="20dp"
+        android:hint="pass@132"
+        app:passwordToggleEnabled="true">
+
+        <!--this is the actual edit text which takes the input-->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit12ConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/default_btn_bg" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_authenticateUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:padding="13dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/good_fonts"
+        android:background="@drawable/default_btn_bg" />
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btn_dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/bottom_nav_btn_home"/>
+    <item
+        android:id="@+id/btn_chat_bottom"
+        android:title="Chats"
+        android:icon="@drawable/btn_bottom_chat"/>
+    <item
+        android:id="@+id/btn_help_center"
+        android:title="My Teachers"
+        android:icon="@drawable/bottom_btn_help"/>
+</menu>

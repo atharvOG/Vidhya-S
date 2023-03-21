@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "209579931085",
+    "project_id": "study-point-84281",
+    "storage_bucket": "study-point-84281.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209579931085:android:1c811bf7686f6e1a770084",
+        "android_client_info": {
+          "package_name": "com.example.studypoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209579931085-16hl04l48g1o3stjkhgd010717lgtvl3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABTxToD0c926gYncvwrHrappgKkewNBkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209579931085-16hl04l48g1o3stjkhgd010717lgtvl3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

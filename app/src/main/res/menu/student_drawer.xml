@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_account"
+        android:title="Student Profile" />
+
+    <item
+        android:id="@+id/nav_payments"
+        android:title="Payement Portal" />
+
+    <item
+        android:id="@+id/nav_att"
+        android:title="Attendance Record" />
+
+    <item
+        android:id="@+id/nav_tst"
+        android:title="Test Report" />
+
+    <item
+        android:id="@+id/nav_notes"
+        android:title="E-Notes" />
+
+    <item
+        android:id="@+id/nav_log_out"
+        android:title="Log Out" />
+
+</menu>
